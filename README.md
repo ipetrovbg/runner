@@ -1,5 +1,5 @@
 # Runner
-Cross-language mono repo CLI
+Cross-language monorepo CLI
 
 ## Build
 ```sh
