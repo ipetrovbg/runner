@@ -1,0 +1,26 @@
+{
+  "builds": [
+    {
+      "cmd": "echo build1",
+      "name": "echo build1 cmd"
+    },
+    {
+      "cmd": "sleep 5",
+      "name": "sleep for 5 seconds"
+    },
+    {
+      "cmd": "echo build2",
+      "name": "echo build2 cmd"
+    }
+  ],
+  "tasks": [
+    {
+      "cmd": "cd .git && npx http-server -p 8001",
+      "name": "running http-server on port 8001"
+    },
+    {
+      "cmd": "echo hello",
+      "name": "echo hello cmd"
+    }
+  ]
+}
